@@ -58,41 +58,92 @@
 //
 //    return 0;
 //}
-#include <iostream>
-using namespace std;
-class rectangle {
-private:
-	int length, width;
-public:
-	void set(int x, int y) {
-		length = x;
-		width = y;
-	}
-	int getlength() {
-		return length;
-	}
-	int getwidth() {
-		return width;
-	}
-	int area() {
-		return length * width;
-	}
-	void cancover(rectangle a) {
-		if (this->area() >= a.area()) {
-			cout << "yes";
-		}
-		else {
-			cout << "no";
-		}
-	}
+//#include <iostream>
+//using namespace std;
+//class rectangle {
+//private:
+//	int length, width;
+//public:
+//	void set(int x, int y) {
+//		length = x;
+//		width = y;
+//	}
+//	int getlength() {
+//		return length;
+//	}
+//	int getwidth() {
+//		return width;
+//	}
+//	int area() {
+//		return length * width;
+//	}
+//	void cancover(rectangle a) {
+//		if (this->area() >= a.area()) {
+//			cout << "yes";
+//		}
+//		else {
+//			cout << "no";
+//		}
+//	}
+//
+//};
+//int main() {
+//	int l1, w1, l2, w2;
+//	cin >> l1 >> w1 >> l2 >> w2;
+//	rectangle a, b;
+//	a.set(l1, w1);
+//	b.set(l2, w2);
+//	a.cancover(b);
+//#include <iostream>
+//using namespace std;
+//const double PI = 3.14;
+//class circle
+//{
+//public:
+//	int m_r;
+//	double mianji()
+//	{
+//		return 2 * PI * m_r;
+//	}
+//};
+//int main()
+//{
+//	circle c1;
+//	c1.m_r = 10;
+//	cout << "圆的周长" << c1.mianji() << endl;
+//
+//}
+//#include <iostream>
+//#include <string>
+//
+//using namespace std;
+//
+//// Person类
+//class Person {
+//public:
+//    string name;    // 姓名
+//    int age;    // 年龄
+//
+//    
+//    Person(string n, int a) :name(n), age(a) {}
+//
+//    void showPerson() {
+//        cout << "姓名" << name << " " << "年龄" << " "<< age << endl;
+//    }
+//};
+//
+//int main() {
+//
+//    string name;
+//    int age;
+//    cout << "请输入姓名";
+//    cin >> name;
+//    cout << "请输入年龄";
+//    cin >> age;
+//
+//    Person p(name, age);
+//    p.showPerson();
+//
+//    return 0;
+//}
 
-};
-int main() {
-	int l1, w1, l2, w2;
-	cin >> l1 >> w1 >> l2 >> w2;
-	rectangle a, b;
-	a.set(l1, w1);
-	b.set(l2, w2);
-	a.cancover(b);
-	return 0;
-}
