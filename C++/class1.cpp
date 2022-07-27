@@ -146,4 +146,55 @@
 //
 //    return 0;
 //}
+//#include <iostream>
+//using namespace std;
+//
+//class Time {
+//public:
+//
+//    int hours;      
+//    int minutes;    
+//
+//    Time() {  
+//        hours = 0;
+//        minutes = 0;
+//    }
+//
+//    Time(int h, int m) { 
+//        this->hours = h;
+//        this->minutes = m;
+//    }
+//
+//    void show() {
+//        cout <<"两者时间和是" << hours << "时" << minutes << "分"<<endl;
+//    }
+//
+//    
+//    Time operator+(Time& t) {
+//        Time sum;
+//        sum.hours = hours + t.hours + (minutes + t.minutes) / 60;  
+//        sum.minutes = (minutes + t.minutes) % 60; 
+//        return sum; 
+//    }
+//};
+//
+//int main() {
+//
+//    int h, m,l,i;
+//    cout << "请输入时间 以空格区分" << endl;
+//    cin >> h;
+//    cin >> m;
+//    cout << "您输入的是" << h << "时" << m << "分" << endl;
+//    cout << "请输入时间 以空格区分"<< endl;
+//    cin >> l;
+//    cin >> i;
+//    cout << "您输入的是" << l << "时" << i << "分" << endl;
+//    Time t1(h, m);
+//    Time t2(l, i);
+//
+//    Time t3 = t1 + t2;
+//    t3.show();
+//
+//    return 0;
+//}
 
