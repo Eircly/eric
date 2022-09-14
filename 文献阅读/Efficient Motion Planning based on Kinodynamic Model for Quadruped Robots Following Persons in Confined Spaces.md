@@ -22,7 +22,7 @@ Zhen Zhang , Jiaqing Yan , Xin Kong , Guangyao Zhai , Yong Liu（IEEE-Asme TMech
 
 4. **感知模块**
 
-   ![image-20220914214736821](C:\Users\Eric\AppData\Roaming\Typora\typora-user-images\image-20220914214736821.png)
+   ![image-20220914214736821](https://raw.githubusercontent.com/Eircly/eric/main/image-20220914214736821.png)
 
    通过合并来自激光雷达和深度相机的点云来处理环境中意想不到的障碍。
 
@@ -30,11 +30,11 @@ Zhen Zhang , Jiaqing Yan , Xin Kong , Guangyao Zhai , Yong Liu（IEEE-Asme TMech
 
    将机器人视为一个刚体，即在投影到2D图像中作为一个矩形轨迹。通过优化的运动规划去生成精确的运动轨迹，通过滚动时域的控制策略，实时重复以上过程，提升系统的鲁棒性。
 
-   ![image-20220914220302763](C:\Users\Eric\AppData\Roaming\Typora\typora-user-images\image-20220914220302763.png)
+   ![image-20220914220302763](https://raw.githubusercontent.com/Eircly/eric/main/image-20220914220302763.png)
 
    图(A)(B)(C)考虑四足机器人通过狭窄的空间
 
-   ![image-20220914221244420](C:\Users\Eric\AppData\Roaming\Typora\typora-user-images\image-20220914221244420.png)
+   ![image-20220914221244420](https://raw.githubusercontent.com/Eircly/eric/main/image-20220914221244420.png)
 
    （a）A*算法的路径（b）未经优化的路径（c）本文方法优化平滑轨迹（d）本文方法生成轨迹
 
@@ -46,7 +46,7 @@ Zhen Zhang , Jiaqing Yan , Xin Kong , Guangyao Zhai , Yong Liu（IEEE-Asme TMech
 
    2.田间试验
 
-   ![image-20220914223335995](C:\Users\Eric\AppData\Roaming\Typora\typora-user-images\image-20220914223335995.png)
+   ![image-20220914223335995](https://raw.githubusercontent.com/Eircly/eric/main/image-20220914223335995.png)
 
    距离障碍物最近距离为0.12m，对于较低的木板可以通过，较大的障碍物则需要转向。
 
