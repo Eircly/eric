@@ -2,6 +2,7 @@
 
 Mallikarjuna Rao  K. Ramji  S. K. Sundara Siva Rao V. Vasu Puneeth
 
+https://github.com/Eircly/eric/blob/main/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/rao2017.pdf
 概述：在遇到弯曲或不规则障碍时，本文所提出的自适应神经模糊推理系统(ANFIS)(加入安全边界算法Safe Boundary Algorithm)，与同类技术相比，更适用于自主移动机器人(AMR)导航。此外，制造AMR的成本相对较低，配置ANFIS系统的自主移动机器人在实际操作中具有很好的稳定性。
 
 前人工作：Abdelmoula等人利用模糊和神经模糊方法设计了AMR；Algabri等应用自适应神经模糊推理系统(ANFIS)对移动机器人进行导航；Li和Choi和Emhemed使用移动机器人的超声波传感器来感知；Dubey等证明了基于强化学习的路径规划优于人工神经网络方法；Sezer和Gokasan提出了一种机器人的非完整约束条件避障算法；etc；
