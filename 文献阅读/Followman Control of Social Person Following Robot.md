@@ -6,7 +6,7 @@ Avijit Kumar Ashel, K. Madhava Krishna
 
 **方法**：提出一个预测控制的框架，可以计算未来的轨迹以及车轮的控制，使得在转向的时候使其误差最小。
 
-**前人的工作**：近些年，使用深度学习和基于社会力的行人动力学模型来学习人类感知的导航系统较多。
+**前人的工作**：近些年，使用深度学习和基于社会力的行人动力学模型来学习人类感知的导航系统较多；Ostafew等人提出了一个具有鲁棒性的MPC约束框架。
 
 **本文工作**：1.实现一个基于预测控制的框架来跟踪一个人的未来运动 2.丢失视野后，根据预测的轨迹重新定位到新的目标位置 3.不影响社会规则 4.导航到新的目标位置，以免在拐角处和十字路口以及由于动态人群而失去对人的视线。
 
@@ -41,28 +41,21 @@ $$
 
 仿真图：
 
-
-
-
-
 <div><table frame=void>	
 	<tr>
         <td><div><center>	
         	<img src="https://raw.githubusercontent.com/Eircly/eric/main/image-20220907223141607.png"
-                
                  width="300"/>	
-        	<br>	
-        	2干扰和1目标人的LSTM动态障碍物轨迹
-        </center></div></td>    
-     	<td><div><center>	
-    		<img src="https://raw.githubusercontent.com/Eircly/eric/main/image-20220907223201334.png"
-                 
-                 width="300"/>	
-    		<br>
-    		基于LSTM的4干扰和1目标的动态障碍物轨迹
-        </center></div></td>
-	</tr>
-</table></div>
+    	<br>	
+    	2干扰和1目标人的LSTM动态障碍物轨迹
+    </center></div></td>    
+ 	<td><div><center>	
+		<img src="https://raw.githubusercontent.com/Eircly/eric/main/image-20220907223201334.png"     width="300"/>	
+	<br>
+	基于LSTM的4干扰和1目标的动态障碍物轨迹
+        </center></div></td></tr></table></div>
+
+
 
 1. 采用基于mpc的路径跟踪控制器实现了一种符合社会可接受规则的非完整差动驱动轮式机器人。
 
