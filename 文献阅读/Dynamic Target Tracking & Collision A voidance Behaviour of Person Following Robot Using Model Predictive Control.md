@@ -30,7 +30,9 @@ $\left.\begin{array}{}
 \dot{\theta} & =\omega
 \end{array}\right\}$
 
-输入$\left(v_{r}, v_{l}\right)=\left[\frac{2 \mathbf{u}+\omega L}{2 R}, \frac{2 \mathbf{u}-\omega L}{2 R}\right]$
+输入
+
+$\left(v_{r}, v_{l}\right)=\left[\frac{2 \mathbf{u}+\omega L}{2 R}, \frac{2 \mathbf{u}-\omega L}{2 R}\right]$
 
 2.约束条件下的最优化
 
@@ -38,9 +40,13 @@ $\underset{v_{x}, v_{y}}{\operatorname{minimize}}\left(v_{x}-v_{x}^{\text {pref 
 
 a.运动学约束，约束线速度、角速度的极值（速度平滑）。
 
-b.视野约束，将人机距离的最值当作视野辨识角度，$b^{2} \leq\left(x_{t+d t}-x_{t+d t}^{\text {person }}\right)^{2}+\left(y_{t+d t}-y_{t+d t}^{\text {person }}\right)^{2} \leq a^{2}$，$\left(\theta_{b o t}+\beta\right)^{2} \leq \tan ^{-1}\left(\frac{y_{t}^{\text {person }}-y_{t}^{b o t}}{x_{t}^{\text {person }}-x_{t}^{b o t}}\right) \leq\left(\theta_{b o t}-\beta\right)^{2}$
+b.视野约束，将人机距离的最值当作视野辨识角度，
 
-c.避障$x_{t+d t}-\left(\begin{array}{l}
+$b^{2} \leq\left(x_{t+d t}-x_{t+d t}^{\text {person }}\right)^{2}+\left(y_{t+d t}-y_{t+d t}^{\text {person }}\right)^{2} \leq a^{2}$，$\left(\theta_{b o t}+\beta\right)^{2} \leq \tan ^{-1}\left(\frac{y_{t}^{\text {person }}-y_{t}^{b o t}}{x_{t}^{\text {person }}-x_{t}^{b o t}}\right) \leq\left(\theta_{b o t}-\beta\right)^{2}$
+
+c.避障
+
+$x_{t+d t}-\left(\begin{array}{l}
 x_{t}^{o b s 1} \\
 x_{t}^{o b s 2}  \\
 \vdots \\x_{t}^{o b s N}
